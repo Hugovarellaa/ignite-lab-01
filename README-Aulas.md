@@ -16,6 +16,17 @@ Nessa aula vamos integrar nossos serviços com apache kafka e entender como o Ap
 
 Ferramenta: Apache Kafka e Apollo Federation.
 
+Purchase -> Kafka (Banco de dados)
+
+Classroom <- Kafka (Banco de dados)
+
+Serviço 1 <- Kafka (Banco de dados)
+Serviço 2 <- Kafka (Banco de dados)
+Serviço 3 <- Kafka (Banco de dados)
+
+Publish / Subscribe
+
+
 ## Aula 04
 
 Nessa aula vamos integrar nosso front-end com nossos serviços back-end utilizando Apollo Client e GraphQL CodeGen. Vamos aprender como realizar requisições GraphQL tanto pelo client-side quanto pelo server-side e também como realizar autenticação das requisições construindo um proxy de requisições HTTP dentro do Next.js.
