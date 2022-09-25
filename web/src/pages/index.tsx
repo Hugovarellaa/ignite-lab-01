@@ -7,6 +7,7 @@ export default function Home() {
 
 export const getServerSideProps: GetServerSideProps = async ({req,res}) => {
   const token = getSession(req,res)
+  console.log(token)
 
   if(!token){
     return {
